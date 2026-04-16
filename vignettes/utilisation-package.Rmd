@@ -1,0 +1,19 @@
+---
+title: "utilisation-package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{utilisation-package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(ly.nenegalle.m1ecap)
+```
